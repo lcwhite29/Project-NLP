@@ -21,12 +21,12 @@
 - The second model I tried out is a random forest classifier.
 - For this model, I also imported stopwords from nltk and string. I used these to make a function which can remove punctuation and stopwords from the reviews as I thought that this might improve the accuracy of the model.
 - Then I imported the TfidfTransformer, the Pipeline and the RandomForestClassifier from sklearn.
-- Once I fitted and predicted using the model the classification report gave the model an accuracy of **0.84**.
+- Once I fitted and predicted using the model, the classification report gave the model an accuracy of **0.84** slightly higher than the previous model.
 - Below is the confusion matrix for the random forest classifier model. Note this model is more likely to classify good reviews as bad reviews than the previous model.
 
 ![](Picture_13.png)
 
-- To find what the most popular words are for different ratings here I look at using a word cloud. 
+- To find what the most popular words are for different ratings I used a word cloud. 
 - The first word cloud here is for reviews with a rating of 1 star.
 
 ![](Picture_14.png)
@@ -35,5 +35,5 @@
 
 ![](Picture_15.png)
 
-- If I was to spend more time on this project I would look into improving the different model's performances.
-- Additionally, I would do a more sophisticated word count as this would be beneficial from a business intelligence point of view to understand what people like and dislike about the app. Knowing this could help Bumble improve certain aspects of the app which would improve their reviews and their performance in the dating market.
+- If I was to spend more time on this project I would look into improving the different model's performances by adding in some additional features like the length of the review and title. I would also use the same models but with the title text instead of the review text.
+- Additionally, I would do a more sophisticated word count as this would be beneficial from a business intelligence point of view to understand what people like and dislike about the app. Knowing this could help Bumble improve certain aspects of the app which would improve their reviews and their overall performance in the dating market.
