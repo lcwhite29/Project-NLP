@@ -3,3 +3,13 @@
 - So I started by doing some exploratory data analysis using Python libraries such as Seaborn, Matplotlib, Pandas and NumPy.
 
 ![](Picture_10.png)
+
+![](Picture_11.png)
+
+![](Picture_12.png)
+
+![](Picture_13.png)
+
+![](Picture_14.png)
+
+![](Picture_15.png)
