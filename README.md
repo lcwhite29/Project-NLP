@@ -19,6 +19,10 @@
 ![](Picture_12.png)
 
 - The second model I use is a Random Forest Classifier.
+- For this model, I import stopwords from nltk and also string. I use these to make a function which can remove punctuation and stopwords.
+- Then I import the TfidfTransformer, the Pipeline and the RandomForestClassifier from sklearn.
+- This model has an accuracy of **0.84**.
+- Below is the confusion matrix for the RandomForestClassifier model. Note this model is more likely to classify good reviews as bad than the previous model.
 
 ![](Picture_13.png)
 
