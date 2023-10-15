@@ -35,5 +35,5 @@
 
 ![](Picture_15.png)
 
-- If I spent more time on this project, I would look into improving the different model's performances by adding additional features like the length of the review and title. I would also use the same models but replace the review text with the title text.
+- If I spent more time on this project, I would look into improving the different model's performances by adding additional features like the length of the review and title. I would also use the same models but replace the review text with the title text. Further, I would look at combining the title and review texts together and then producing a model on the combined text.
 - Additionally, I would do a more sophisticated word count as this would be beneficial from a business intelligence point of view to understand what people like and dislike about the app. Knowing this could help Bumble improve certain aspects of the app that would improve their reviews and the overall performance of Bumble in the dating app market.
